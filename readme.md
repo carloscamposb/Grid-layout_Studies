@@ -8,8 +8,9 @@ Olá! Desenvolvi esse projeto web para estudo do grid-layout. Ele conta com anot
 
 
 
-Projeto na íntengra:
-[link da page]
+Projeto na íntengra: https://carloscamposb.github.io/Grid-layout-Estudo-/
+
+
 ![image](https://github.com/carloscamposb/Grid-layout-Estudo-/assets/108171029/312b9218-4a51-4359-a6a0-02c39f804d40)
 
 
