@@ -1,6 +1,6 @@
 ## Estudando Grid-layout
 
-Olá desenvolvi esse projeto web para estudo do grid-layout. Ele conta com anotações que podem ajudar a relembrar/compreender sobre o assunto.
+Olá! Desenvolvi esse projeto web para estudo do grid-layout. Ele conta com anotações que podem ajudar a relembrar/compreender sobre o assunto.
 
 
 ## 🚀 Tecnologias utilizadas
@@ -10,5 +10,6 @@ Olá desenvolvi esse projeto web para estudo do grid-layout. Ele conta com anota
 
 Projeto na íntengra:
 [link da page]
+![image](https://github.com/carloscamposb/Grid-layout-Estudo-/assets/108171029/312b9218-4a51-4359-a6a0-02c39f804d40)
 
-[link da foto]
+
