@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <lisnk href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <title>Grid Layout</title>
+    </head>
+    <body>
+    
+        <h1 class="title">Estudo de Grid</h1>
+       
+        <h2> Display: block </h2>
+        <div class="contener contaner-displayBlock">
+            <div class=" box">
+                <p>🦎</p>
+            </div>
+            <div class=" box">
+                <p>🐊</p>
+            </div>
+            <div class="  box">
+                 <p>🐢</p>
+            </div>
+            <div class=" box">
+                <p>🐍</p>
+            </div>
+            <div class=" box">
+                <p>🐉</p>
+           </div>
+           <div class=" box">
+               <p>🦎</p>
+           </div>
+        </div>
+
+        <h2> grid-template-columns: 1fr; 25%, repeat(x,1fr) </h2>
+        <div class="contener contaner-template-columns">
+            <div class="box">
+                <p>🦎</p>
+                <span>1fr</span>
+            </div>
+            <div class="box">
+                <p>🐊</p>
+                <span>2fr</span>
+            </div>
+            <div class="box">
+                 <p>🐢</p>
+                 <span>1fr</span>
+            </div>
+            <div class="box">
+                <p>🐍</p>
+                <span>1fr</span>
+            </div>
+            <div class="box">
+                <p>🐉</p>
+                <span>2frr</span>
+           </div>
+           <div class="box">
+               <p>🦎</p>
+               <span>2fr</span>
+           </div>
+        </div>
+
+        <h2> row-gap; column-gap ; gap</h2>
+        <div class="contener contaner-gap">
+            <div class="box item-gap">
+                <p>🦎</p>
+            </div>
+            <div class="box">
+                <p>🐊</p>
+            </div>
+            <div class="box">
+                 <p>🐢</p>
+            </div>
+            <div class="box">
+                <p>🐍</p>
+            </div>
+            <div class="box">
+                <p>🐉</p>
+           </div>
+           <div class="box">
+               <p>🦎</p>
+           </div>
+        </div>
+
+        <h2> grid-template-rows: 1fr 2fr, repeat(2,1fr), 25%</h2>
+        <div class="contener contaner-rows">
+            <div class="box">
+                <p>🦎</p>
+                <span>1fr</span>
+            </div>
+            <div class="box">
+                <p>🐊</p>
+                <span>1fr</span>
+            </div>
+            <div class="box">
+                 <p>🐢</p>
+                 <span>2fr</span>
+            </div>
+            <div class="box">
+                <p>🐍</p>
+                <span>2fr</span>
+            </div>
+            <div class="box">
+                <p>🐉</p>
+                <span>1fr</span>
+           </div>
+           <div class="box">
+               <p>🦎</p>
+               <span>1fr</span>
+           </div>
+        </div>
+         
+        <h2> grid-auto-rows</h2>
+        <div class="contener contaner-auto-rows">
+            <div class="box">
+                <p>🦎</p>
+                <span>1fr</span>
+            </div>
+            <div class="box">
+                <p>🐊</p>
+                <span>1fr</span>
+            </div>
+            <div class="box">
+                 <p>🐢</p>
+                 <span>2fr</span>
+            </div>
+            <div class="box">
+                <p>🐍</p>
+                <span>2fr</span>
+            </div>
+            <div class="box">
+                <p>🐉</p>
+                <span>1fr</span>
+           </div>
+           <div class="box">
+               <p>🦎</p>
+               <span>1fr</span>
+           </div>
+        </div>
+           
+
+        <h2> Exercício Teste 1</h2>
+        <div class="contener contaner-teste">
+            <div class="box">
+                <p>🦎</p>   
+            </div>
+            <div class="box">
+                <p>🐊</p>    
+            </div>
+            <div class="box">
+                 <p>🐢</p>
+            </div>
+            <div class="box">
+                <p>🐍</p>
+            </div>
+            <div class="box">
+                <p>🐉</p>     
+           </div>
+           <div class="box">
+               <p>🦎</p> 
+           </div>
+        </div>
+
+        <h2> grid-column: 1/4 </h2>
+        <div class="contener contenet-grid-column">
+            <div class="box item1">
+                <p>🦎</p>
+                <span>1/4</span>
+            </div>
+            <div class="box item2">
+                <p>🐊</p>
+                <span>1/3</span>
+            </div>
+            <div class="box item3">
+                 <p>🐢</p>
+            </div>
+            <div class="box item4">
+                <p>🐍</p>
+            </div>
+            <div class="box item5">
+                <p>🐉</p>
+                <span>2/4</span>
+           </div>
+           <div class="box item6">
+               <p>🦎</p>
+               <span>3/4</span>
+           </div>
+        <!-- Adicionado 3 elementos para melhor compreensão -->
+            <div class="box item7">
+                <p>🐍</p>
+            </div>
+            <div class="box item8">
+                <p>🐉</p>
+                <span>3/4</span>
+            </div>
+            <div class="box item9">
+                <p>🦎</p>
+                <span>1/4</span>
+            </div>      
+        </div>
+        
+
+        <h2> grid-rows :1/5</h2>
+        <div class="contener contaner-grid-rows">
+            <div class="box item1r">
+                <p>🦎</p>
+                <span>C:1/4</span>
+            </div>
+            <div class="box item2r">
+                <p>🐊</p>
+                <span>C:1/3</span>
+            </div>
+            <div class="box item3r">
+                 <p>🐢</p>
+            </div>
+            <div class="box item4r">
+                <p>🐍</p>
+            </div>
+            <div class="box item5r">
+                <p>🐉</p>
+                <span>C:2/4</span>
+           </div>
+           <div class="box item6r">
+               <p>🦎</p>
+               <span>C:3/4 ; R:4/7</span>
+           </div>
+        <!-- Adicionado 3 elementos para melhor compreensão -->
+            <div class="box item7r">
+                <p>🐍</p>
+            </div>
+            <div class="box item8r">
+                <p>🐉</p>
+                <span>C:3/4; R:5/7</span>
+            </div>
+            <div class="box item9r">
+                <p>🦎</p>
+                <span>C:1/4</span>
+            </div>      
+        </div>
+           
+
+        <h2>grid-row e grid-column (Exercício) </h2>
+        <div class="contener contaner-grid-row-and-column">
+            <div class="box item1e">
+                <p>🦎</p>
+                <span>C:1/3</span>
+            </div>
+            <div class="box item2e">
+                <p>🐊</p>
+                <span>C:1/2; R:2/4</span>
+            </div>
+            <div class="box item3e">
+                 <p>🐢</p>
+            </div>
+            <div class="box item4e">
+                <p>🐍</p>
+                <span>C:2/3</span>
+            </div>
+            <div class="box item5e">
+                <p>🐉</p>
+                <span>C:1/3</span>
+           </div>
+           <div class="box item6e">
+               <p>🦎</p>
+           </div>
+        <!-- Adicionado 3 elementos para melhor compreensão -->
+            <div class="box item7e">
+                <p>🐍</p>
+                <span>C:2/3;R:5/7</span>
+            </div>
+            <div class="box item8e">
+                <p>🐉</p>
+            </div>
+            <div class="box item9e">
+                <p>🦎</p>
+                <span>C:1/3</span>
+            </div>      
+        </div>
+
+
+        <h2>grid-template-areas </h2>
+        <div class="contener contaner-grid-template-areas">
+            <div class="box item1t">
+                <p>🦎</p> 
+            </div>
+            <div class="box item2t">
+                <p>🐊</p>
+            </div>
+            <div class="box item3t">
+                 <p>🐢</p>
+            </div>
+            <div class="box item4t">
+                <p>🐍</p>
+                <span>C:2/3</span>
+            </div>
+            <div class="box item5t">
+                <p>🐉</p>   
+           </div>
+           <div class="box item6t">
+               <p>🦎</p>
+           </div>
+        <!-- Adicionado 3 elementos para melhor compreensão -->
+            <div class="box item7t">
+                <p>🐍</p>
+              
+            </div>
+            <div class="box item8t">
+                <p>🐉</p>
+            </div>
+            <div class="box item9t">
+                <p>🦎</p>
+                
+            </div>      
+        </div>
+        
+
+        <h2>Exercício-Teste 2</h2>
+        <div class="contener contaner-teste2">
+            <div class="box item1">
+                <p>🦎</p>
+            </div>
+        
+            <div class="main-contener">
+                <div class="box">
+                    <p>🐊</p>
+                </div>
+                <div class="box">
+                    <p>🐢</p>
+                </div>
+                <div class="box">
+                    <p>🐍</p>
+                </div>
+                <div class="box item4">
+                    <p>🐉</p>
+                </div>
+                <div class="box item5">
+                    <p>🐢</p>
+                </div>
+                <div class="box">
+                   <p>🐍</p>
+                </div>
+            </div>    
+    
+            <div class="box item7">
+               <p>🦎</p>
+            </div>
+        
+        </div>
+          
+
+    </body>
+</html>
